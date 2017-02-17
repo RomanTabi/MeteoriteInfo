@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="common-1.12.2">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.pushtorefresh.storio/common/1.12.2/c41cad38eff92134a54d9649f46ae9f4fee5f048/common-1.12.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.pushtorefresh.storio/common/1.12.2/298be0406ecec7cdf26dffe54b4d1a65d3f9d84a/common-1.12.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
