@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="@dimen/list_item_height"
+              android:paddingLeft="@dimen/base_padding"
+              android:paddingRight="@dimen/base_padding"
+              android:gravity="center_vertical"
+              android:background="?attr/selectableItemBackground">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:id="@+id/name_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:textSize="@dimen/list_item_text_size"
+            android:textColor="@color/colorPrimaryTextLight"/>
+
+        <TextView
+            android:id="@+id/year_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/name_view"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:gravity="end"
+            android:layout_centerVertical="true"
+            android:textSize="@dimen/list_item_text_size"
+            android:textColor="@color/colorSecondaryTextLight"/>
+
+        <TextView
+            android:id="@+id/mass_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_below="@id/name_view"
+            android:textSize="@dimen/list_item_text_size"
+            android:textColor="@color/colorSecondaryTextLight"/>
+
+        <TextView
+            android:id="@+id/mass_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_below="@id/name_view"
+            android:layout_toRightOf="@id/mass_view"
+            android:textSize="@dimen/list_item_text_size"
+            android:textColor="@color/colorSecondaryTextLight"
+            android:text="@string/mass_label"/>
+
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">MeteoriteInfo</string>
+    <string name="mass_label">g</string>
+    <string name="app_subtitle">All the known meteorite landings since 2011 ordered by mass.</string>
+    <string name="name">Name</string>
+    <string name="mass">Mass[g]</string>
+    <string name="fall">Fall</string>
+    <string name="year">Year</string>
+    <string name="latitude">Latitude</string>
+    <string name="longitude">Longitude</string>
+</resources>
